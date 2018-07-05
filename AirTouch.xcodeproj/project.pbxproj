@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622E019620EDE5C90082A7E5 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E019520EDE5C90082A7E5 /* TextField+Extension.swift */; };
+		622E019820EDE61D0082A7E5 /* DropDownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E019720EDE61D0082A7E5 /* DropDownPickerView.swift */; };
+		622E019A20EDE7360082A7E5 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E019920EDE7360082A7E5 /* ConversionViewController.swift */; };
 		625B13BD20EDDC5D00CCA7EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625B13BC20EDDC5D00CCA7EF /* AppDelegate.swift */; };
-		625B13BF20EDDC5D00CCA7EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625B13BE20EDDC5D00CCA7EF /* ViewController.swift */; };
+		625B13BF20EDDC5D00CCA7EF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625B13BE20EDDC5D00CCA7EF /* HomeViewController.swift */; };
 		625B13C220EDDC5D00CCA7EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625B13C020EDDC5D00CCA7EF /* Main.storyboard */; };
 		625B13C420EDDC5E00CCA7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625B13C320EDDC5E00CCA7EF /* Assets.xcassets */; };
 		625B13C720EDDC5E00CCA7EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625B13C520EDDC5E00CCA7EF /* LaunchScreen.storyboard */; };
+		638C78EEA81E388FCA30AC3A /* Pods_AirTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F322A6B065DB1DF6EFB2EC /* Pods_AirTouch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622E019520EDE5C90082A7E5 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		622E019720EDE61D0082A7E5 /* DropDownPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPickerView.swift; sourceTree = "<group>"; };
+		622E019920EDE7360082A7E5 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		625B13B920EDDC5D00CCA7EF /* AirTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		625B13BC20EDDC5D00CCA7EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		625B13BE20EDDC5D00CCA7EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		625B13BE20EDDC5D00CCA7EF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		625B13C120EDDC5D00CCA7EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		625B13C320EDDC5E00CCA7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		625B13C620EDDC5E00CCA7EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		625B13C820EDDC5E00CCA7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F322A6B065DB1DF6EFB2EC /* Pods_AirTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0774F5B1B4C4ACE29D9A78 /* Pods-AirTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirTouch/Pods-AirTouch.release.xcconfig"; sourceTree = "<group>"; };
+		F7FD109C84421B45DA11021D /* Pods-AirTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirTouch/Pods-AirTouch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638C78EEA81E388FCA30AC3A /* Pods_AirTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B30B2F06BC81BC1B2FC6B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3F322A6B065DB1DF6EFB2EC /* Pods_AirTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		625B13B020EDDC5D00CCA7EF = {
 			isa = PBXGroup;
 			children = (
 				625B13BB20EDDC5D00CCA7EF /* AirTouch */,
 				625B13BA20EDDC5D00CCA7EF /* Products */,
+				D462030D77E0538B145B3C9A /* Pods */,
+				3B30B2F06BC81BC1B2FC6B34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,25 @@
 			isa = PBXGroup;
 			children = (
 				625B13BC20EDDC5D00CCA7EF /* AppDelegate.swift */,
-				625B13BE20EDDC5D00CCA7EF /* ViewController.swift */,
+				625B13BE20EDDC5D00CCA7EF /* HomeViewController.swift */,
 				625B13C020EDDC5D00CCA7EF /* Main.storyboard */,
 				625B13C320EDDC5E00CCA7EF /* Assets.xcassets */,
 				625B13C520EDDC5E00CCA7EF /* LaunchScreen.storyboard */,
 				625B13C820EDDC5E00CCA7EF /* Info.plist */,
+				622E019520EDE5C90082A7E5 /* TextField+Extension.swift */,
+				622E019720EDE61D0082A7E5 /* DropDownPickerView.swift */,
+				622E019920EDE7360082A7E5 /* ConversionViewController.swift */,
 			);
 			path = AirTouch;
+			sourceTree = "<group>";
+		};
+		D462030D77E0538B145B3C9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD109C84421B45DA11021D /* Pods-AirTouch.debug.xcconfig */,
+				EF0774F5B1B4C4ACE29D9A78 /* Pods-AirTouch.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 625B13CB20EDDC5E00CCA7EF /* Build configuration list for PBXNativeTarget "AirTouch" */;
 			buildPhases = (
+				E1B51A042240873BB9538C3A /* [CP] Check Pods Manifest.lock */,
 				625B13B520EDDC5D00CCA7EF /* Sources */,
 				625B13B620EDDC5D00CCA7EF /* Frameworks */,
 				625B13B720EDDC5D00CCA7EF /* Resources */,
+				831812FD672D7835990C4442 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +165,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		831812FD672D7835990C4442 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AirTouch/Pods-AirTouch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirTouch/Pods-AirTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B51A042240873BB9538C3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirTouch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		625B13B520EDDC5D00CCA7EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				625B13BF20EDDC5D00CCA7EF /* ViewController.swift in Sources */,
+				625B13BF20EDDC5D00CCA7EF /* HomeViewController.swift in Sources */,
+				622E019A20EDE7360082A7E5 /* ConversionViewController.swift in Sources */,
+				622E019820EDE61D0082A7E5 /* DropDownPickerView.swift in Sources */,
+				622E019620EDE5C90082A7E5 /* TextField+Extension.swift in Sources */,
 				625B13BD20EDDC5D00CCA7EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +361,7 @@
 		};
 		625B13CC20EDDC5E00CCA7EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FD109C84421B45DA11021D /* Pods-AirTouch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +380,7 @@
 		};
 		625B13CD20EDDC5E00CCA7EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0774F5B1B4C4ACE29D9A78 /* Pods-AirTouch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
