@@ -1,14 +1,6 @@
 PODS:
   - Alamofire (4.7.2)
-  - PromiseKit (6.2.5):
-    - PromiseKit/CorePromise (= 6.2.5)
-    - PromiseKit/Foundation (= 6.2.5)
-    - PromiseKit/UIKit (= 6.2.5)
-  - PromiseKit/CorePromise (6.2.5)
-  - PromiseKit/Foundation (6.2.5):
-    - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.2.5):
-    - PromiseKit/CorePromise
+  - ProgressHUD (2.60)
   - Realm (3.5.0):
     - Realm/Headers (= 3.5.0)
   - Realm/Headers (3.5.0)
@@ -17,23 +9,23 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - PromiseKit
+  - ProgressHUD
   - Realm
   - RealmSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
-    - PromiseKit
+    - ProgressHUD
     - Realm
     - RealmSwift
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
-  PromiseKit: a26828b0a8d5874960dfdb575b57a70790ec36f1
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
   Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
   RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
 
-PODFILE CHECKSUM: 9f3df688fdb62fccec16b17f4640536be179967f
+PODFILE CHECKSUM: d9e881a5e6c73992484cdb15867b72afd25a1a5f
 
 COCOAPODS: 1.5.3

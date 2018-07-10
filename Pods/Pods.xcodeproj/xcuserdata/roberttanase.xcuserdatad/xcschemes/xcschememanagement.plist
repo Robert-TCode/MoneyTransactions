@@ -18,7 +18,7 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>PromiseKit.xcscheme</key>
+		<key>ProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

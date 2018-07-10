@@ -7,6 +7,6 @@ target 'AirTouch' do
   pod 'Alamofire'
   pod 'Realm'
   pod 'RealmSwift'
-  pod 'PromiseKit'
+  pod 'ProgressHUD'
 
 end
